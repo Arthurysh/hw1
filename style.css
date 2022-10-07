@@ -1,0 +1,57 @@
+.task-1 input:checked+label {
+    color: red;
+}
+
+.task-2 ul li:nth-child(3n) {
+    color: #ffd600;
+}
+
+.task-2 ul li:nth-child(5n):hover {
+    background: #72bb17;
+}
+
+.task-2 ul li {
+    list-style-image: url(right-arrow.png);
+}
+
+.task-2 ul li::first-letter {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.task-3 p.new:before {}
+
+.task-3 p.new.back:after {}
+
+.task-3 div:before:first-letter {}
+
+.task-3 a:hover:before {}
+
+.task-4 div {
+    width: 500px;
+    background: repeating-linear-gradient(45deg, #7fffd4 10%, #f0ffff 30%);
+}
+
+.task-4 a[href*="htmlweb"] {
+    color: #8000ff;
+}
+
+.task-4>div>a[href*="htmlweb"] {
+    background: radial-gradient(at bottom, #55ddff, #0081b5);
+}
+
+.task-4>div>div>a[href$="/css"]:hover {
+    border: 8px inset #ff4500;
+    border-radius: 0px 40px 0px 40px;
+}
+
+.task-4>div>a:visited {
+    color: #ffd600;
+}
+
+.task-4 div div a::selection {
+    font-weight: bold;
+    color: red;
+    background: #72bb17;
+}
