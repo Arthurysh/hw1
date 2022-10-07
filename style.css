@@ -55,3 +55,43 @@
     color: red;
     background: #72bb17;
 }
+
+.task-5 a,
+.task-5 p:nth-child(5):active::first-letter,
+.task-5 p:nth-child(6):active::first-letter,
+.task-5 p:nth-child(7):active::first-letter {
+    color: black;
+}
+
+.task-5 a:nth-child(2):hover,
+.task-5 p:nth-child(5)::first-letter,
+.task-5 p:nth-child(5):active {
+    color: red;
+}
+
+.task-5 a:nth-child(3):hover,
+.task-5 p:nth-child(6)::first-letter,
+.task-5 p:nth-child(6):active {
+    color: green;
+}
+
+.task-5 a:nth-child(4):hover,
+.task-5 p:nth-child(7)::first-letter,
+.task-5 p:nth-child(7):active {
+    color: blue;
+}
+
+.task-5 a:nth-child(2)::selection,
+.task-5 p:nth-child(5)::selection {
+    background: red;
+}
+
+.task-5 a:nth-child(3)::selection,
+.task-5 p:nth-child(6)::selection {
+    background: green;
+}
+
+.task-5 a:nth-child(4)::selection,
+.task-5 p:nth-child(7)::selection {
+    background: blue;
+}
